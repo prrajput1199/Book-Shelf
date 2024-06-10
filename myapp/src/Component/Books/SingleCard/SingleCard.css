@@ -1,0 +1,42 @@
+.main-card {
+  width: 400px;
+  height: max-content;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 10px 10px;
+  /* white-space: nowrap;  */
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.single-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+     
+  /* justify-content: flex-start;
+  align-items: center; */
+}
+
+.title-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-content h2 {
+  margin-right: 10px;
+}
+
+#button1{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: green;
+    color: white;
+    margin-top: 100px;
+}

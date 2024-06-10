@@ -1,0 +1,38 @@
+  .main-card1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .single-card1{
+    width: 305px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    padding: 20px 15px;
+    border-radius: 5%;
+    /* justify-content: flex-start;
+    align-items: center; */
+  }
+  
+  .title-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .title-content h2 {
+    margin-right: 10px;
+  }
+  
+  #button1{
+      cursor: pointer;
+      width: 200px;
+      height: 50px;
+      border-radius: 5%;
+      background-color: green;
+      color: white;
+      margin-top: 100px;
+  }
