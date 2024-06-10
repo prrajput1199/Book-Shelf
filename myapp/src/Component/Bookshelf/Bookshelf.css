@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px 10px;
   }
   
   .single-card1{
@@ -11,8 +12,7 @@
     display: flex;
     padding: 20px 15px;
     border-radius: 5%;
-    /* justify-content: flex-start;
-    align-items: center; */
+    margin: 10px 10px;
   }
   
   .title-content {
@@ -35,4 +35,10 @@
       background-color: green;
       color: white;
       margin-top: 100px;
+  }
+
+  @media screen and (min-width: 250px) and (max-width: 600px) {
+    .single-card1 {
+      width: 80vw;
+    }
   }
