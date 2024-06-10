@@ -40,3 +40,9 @@
     color: white;
     margin-top: 100px;
 }
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .main-card {
+    width: 90vw;
+  }
+}
